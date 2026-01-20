@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from .Blackjack import PlayRound
+from Blackjack import PlayRound
 
 
 def load_settings(ruleset_name="standard.json"):
